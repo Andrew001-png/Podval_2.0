@@ -1,1 +1,268 @@
-.
+
+{
+  "Name": "<b><color=#ADFF2F>|| ПОДВАЛ </a><color=cyan>The new Season</a> <color=#ADFF2F>||</a></b> <i>Demo</i>",
+  "Description": "<color=red>Анархия</a> <color=lime>делай что захочешь!\nданный режим еще на стадии разработки!(V:5.0)</a> <i>(id:1489)</i>",
+  "StartClientVersion": 334,
+  "MapLists": [
+    {
+      "MapListId": 24370,
+      "Name": "Глобал Карта\nнажмите сюда чтобы выбрать тип карт."
+    },
+    {
+      "MapListId": 19860,
+      "Name": "Оффициальные карты\nнажмите сюда чтобы выбрать тип карт."
+    },
+    {
+      "MapListId": 19863,
+      "Name": "Базы кланов\nнажмите сюда чтобы выбрать тип карт."
+    },
+    {
+      "MapListId": 19862,
+      "Name": "Карты от игроков\nнажмите сюда чтобы выбрать тип карт."
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "block",
+        "DisplayName": "<b>< Зона <color=orange>блоков</a> ></b>",
+        "Default": true,
+        "Order": 1
+      },
+      {
+        "Name": "melee",
+        "DisplayName": "<b>< Зона <color=orange>ножа</a> ></b>",
+        "Default": true,
+        "Order": 2
+      },
+      {
+        "Name": "gun",
+        "DisplayName": "<b>< Зона <color=orange>песта</a> ></b>",
+        "Order": 3,
+        "Default": true
+      },
+      {
+        "Name": "main",
+        "DisplayName": "<b>< Зона <color=orange>основы</a> ></b>",
+        "Order": 4,
+        "Default": true
+      },
+      {
+        "Name": "ex",
+        "DisplayName": "<b>< Зона <color=orange>грен</a> ></b>",
+        "Order": 5,
+        "Default": true
+      },
+      {
+        "Name": "air_support",
+        "DisplayName": "<b>< Поставка грузов ></b>",
+        "Order": 6,
+        "Default": false
+      },
+      {
+        "Name": "SHIELD_BST",
+        "DisplayName": "<b>< Буст <color=cyan>щита</a> ></b>",
+        "Order": 7
+      },
+      {
+        "Name": "MELEE_BST",
+        "DisplayName": "<b>< Буст <color=cyan>нож</a> ></b>",
+        "Order": 8
+      },
+      {
+        "Name": "голод",
+        "DisplayName": "<b>< Система <color=lime>Голода</a> ></b>",
+        "Default": true,
+        "Order": 9
+      },
+      {
+        "Name": "world_types",
+        "DisplayName": "<b>< Система <color=lime>Типа Мира</a> ></b>",
+        "Default": true,
+        "Order": 10
+      },
+      {
+        "Name": "hard_points",
+        "DisplayName": "<b>< Система <color=lime>Ополчения</a> ></b>",
+        "Default": true,
+        "Order": 11
+      },
+      {
+        "Name": "person",
+        "DisplayName": "<b>< Система <color=lime>Личностей</a> ></b>\n<size=8>Does not work</size>",
+        "Default": true,
+        "Order": 12
+      },
+      {
+        "Name": "set_zombie",
+        "DisplayName": "<b>< Система <color=lime>Зомби</a> ></b>",
+        "Default": true,
+        "Order": 13
+      },
+      {
+        "Name": "event_m",
+        "DisplayName": "<b>< Событие: <color=red>×2МОНЕТ(ФАРМ)</a> ></b>",
+        "Order": 14
+      },
+      {
+        "Name": "event_d",
+        "DisplayName": "<b>< Событие: <color=red>×2МОНЕТ(УРОН)</a> ></b>",
+        "Order": 15
+      },
+      {
+        "Name": "event_s",
+        "DisplayName": "<b>< Событие: <color=red>СКИДКА</a> ></b>",
+        "Order": 16
+      },
+      {
+        "Name": "event_n",
+        "DisplayName": "<b>< Событие: <color=red>НЕУРОЖАЙ</a> ></b>",
+        "Order": 17
+      },
+      {
+        "Name": "event_p",
+        "DisplayName": "<b>< Событие: <color=red>МИР</a> ></b>",
+        "Order": 18
+      },
+      {
+        "Name": "event_o",
+        "DisplayName": "<b>< Событие: <color=red>ОПОЛЧЕНИЕ</a> ></b>",
+        "Order": 19
+      },
+      {
+        "Name": "event_z",
+        "DisplayName": "<b>< Событие: <color=red>ЗОМБИ</a> ></b>",
+        "Order": 20
+      },
+      {
+        "Name": "event_i",
+        "DisplayName": "<b>< Событие: <color=red>ИНФЛЯЦИЯ</a> ></b>",
+        "Order": 21
+      },
+      {
+        "Name": "server_official_false",
+        "DisplayName": "<i>Official Server</i>\n<size=8>Does not work</size>",
+        "Order": 25
+      },
+    ],
+    "Dropdown": [
+      {
+        "Name": "CD",
+        "DisplayName": "<b>Переодичность событий:</b>",
+        "Default": "MD",
+        "Order": 22,
+        "Variants": [
+          {
+            "Name": "VSH",
+            "DisplayName": "<b>1-2 минут</b>"
+          },
+          {
+            "Name": "SH",
+            "DisplayName": "<b>4-8 минут</b>"
+          },
+          {
+            "Name": "MD",
+            "DisplayName": "<b>5-10 минут</b>"
+          },
+          {
+            "Name": "LG",
+            "DisplayName": "<b>10-20 минут</b>"
+          },
+          {
+            "Name": "VLG",
+            "DisplayName": "<b>30-60 минут</b>"
+          }
+        ]
+      },
+      {
+        "Name": "GAME_MODE",
+        "DisplayName": "<b>Режим игры:</b>",
+        "Default": "CLASSIC",
+        "Order": 23,
+        "Variants": [
+          {
+            "Name": "NOOBS",
+            "DisplayName": "<b><color=#0000FF>Для Нубов</a></b>"
+          },
+          {
+            "Name": "VERY_EZ",
+            "DisplayName": "<b><color=#00FF00>Очень Легко</a></b>"
+          },
+          {
+            "Name": "EZ",
+            "DisplayName": "<b><color=#2E8B57>Легко</a></b>"
+          },
+          {
+            "Name": "MEDIUM",
+            "DisplayName": "<b><color=#FFD700>Средне</a></b>"
+          },
+          {
+            "Name": "CLASSIC",
+            "DisplayName": "<b><color=#00FFFF>Классика</a></b>"
+          },
+          {
+            "Name": "evol",
+            "DisplayName": "<b><color=orange>Эво<quad>ю<quad>ия</a></b>"
+          },
+          {
+            "Name": "HARD",
+            "DisplayName": "<b><color=#D2691E>Сложно</a></b>"
+          },
+          {
+            "Name": "UNREAL",
+            "DisplayName": "<b><color=#808080>Невозможно</a></b>"
+          },
+          {
+            "Name": "HARDCORE",
+            "DisplayName": "<b><color=red>Ультра Хардкор</a></b>"
+          },
+          {
+            "Name": "hard",
+            "DisplayName": "<b><quad>Сложно<quad></b>"
+          },
+          {
+            "Name": "cosmic",
+            "DisplayName": "<b><color=black>Космическая</a></b>"
+          }
+        ]
+      },
+      {
+        "Name": "HP",
+        "DisplayName": "<b>Стартовая сила ополчения: </b>",
+        "Default": "0HP",
+        "Order": 24,
+        "Variants": [
+          {
+            "Name": "0HP",
+            "DisplayName": "<b><color=red>0</a></b>"
+          },
+          {
+            "Name": "1HP",
+            "DisplayName": "<b><color=red>1</a></b>"
+          },
+          {
+            "Name": "2HP",
+            "DisplayName": "<b><color=red>2</a></b>"
+          },
+          {
+            "Name": "3HP",
+            "DisplayName": "<b><color=red>3</a></b>"
+          },
+          {
+            "Name": "4HP",
+            "DisplayName": "<b><color=red>4</a></b>"
+          },
+          {
+            "Name": "5HP",
+            "DisplayName": "<b><color=red>5</a></b>"
+          },
+          {
+            "Name": "random",
+            "DisplayName": "<b><color=red>Random</a></b>"
+          }
+        ]
+      }
+    ]
+  }
+}
+
